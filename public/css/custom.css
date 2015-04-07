@@ -1,0 +1,70 @@
+@charset "UTF-8";
+html, body, #map-canvas, #historySelect  {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.col-md-2, .col-md-8 {
+	padding: 0;
+}
+.nav-bar, .button, #search {
+	min-height: 40px;
+	width: 100%;
+}
+.nav-bar {
+	bottom: 0;
+	margin: 0;
+	position: absolute;	
+	width: 100%;
+	z-index: 9999;
+}
+.button {
+	background-color: #52A4D6;
+	border: #FFF solid 1px;
+	color: #FFF;
+}
+.disabled {
+	background-color: #888888;
+}
+#caption {
+	color: #52A4D6;
+	font-size: 35px;
+	position: absolute;
+	text-align: center;
+	text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
+	text-transform: uppercase;
+	top: 20px;
+	width: 100%;
+	z-index: 9998;	
+}
+#search {
+	font-size: 20px;
+	padding: 0 15px;
+}
+#historySelect {
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+#historySelect ul {
+	padding: 0;
+}
+#historySelect li {
+	border-bottom: #52A4D6 solid 1px;
+	list-style: none;
+	padding: 10px 15px;
+}
+.marker-box{
+	width: 200px;
+}
+.marker-title {
+	text-align: center;
+}
+.marker-title img {
+	border-radius: 25px;
+}
+.marker-detail {
+	padding: 10px 5px;
+}
