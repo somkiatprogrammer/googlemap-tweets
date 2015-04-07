@@ -4,6 +4,10 @@ Google Map with Tweets
 
 This project, is based on Laravel PHP Framework, uses for searching any locations by using Google Map API and showing tweets on the map by using Twitter PHP API.
 
+Requirement
+------------
+PHP >= 5.4
+
 Installation
 ------------
 
