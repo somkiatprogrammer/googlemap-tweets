@@ -9,7 +9,7 @@
     ],
     "require": {
 		"php": ">=5.4.0",
-		"laravel/laravel": "5.0.27",
+		"laravel/laravel": "5.0.*",
         "j7mbo/twitter-api-php": "dev-master"
     },
     "require-dev": {
